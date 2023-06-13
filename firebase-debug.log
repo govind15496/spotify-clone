@@ -1,0 +1,33 @@
+[debug] [2022-11-12T14:43:29.247Z] ----------------------------------------------------------------------
+[debug] [2022-11-12T14:43:29.251Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\singh\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2022-11-12T14:43:29.252Z] CLI Version:   11.16.0
+[debug] [2022-11-12T14:43:29.252Z] Platform:      win32
+[debug] [2022-11-12T14:43:29.252Z] Node Version:  v18.12.0
+[debug] [2022-11-12T14:43:29.253Z] Time:          Sat Nov 12 2022 20:13:29 GMT+0530 (India Standard Time)
+[debug] [2022-11-12T14:43:29.254Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-12T14:43:29.543Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-12T14:43:29.544Z] > authorizing via signed-in user (govindsingh15496@gmail.com)
+[debug] [2022-11-12T14:43:29.544Z] [iam] checking project spotify-clone-fc5d9 for permissions ["firebase.projects.get"]
+[debug] [2022-11-12T14:43:29.547Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/spotify-clone-fc5d9:testIamPermissions [none]
+[debug] [2022-11-12T14:43:29.548Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/spotify-clone-fc5d9:testIamPermissions x-goog-quota-user=projects/spotify-clone-fc5d9
+[debug] [2022-11-12T14:43:29.548Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/spotify-clone-fc5d9:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-11-12T14:43:30.207Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/spotify-clone-fc5d9:testIamPermissions 200
+[debug] [2022-11-12T14:43:30.208Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/spotify-clone-fc5d9:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-11-12T14:43:30.212Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/spotify-clone-fc5d9 [none]
+[debug] [2022-11-12T14:43:30.815Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/spotify-clone-fc5d9 200
+[debug] [2022-11-12T14:43:30.817Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/spotify-clone-fc5d9 {"projectId":"spotify-clone-fc5d9","projectNumber":"600332448013","displayName":"spotify-clone","name":"projects/spotify-clone-fc5d9","resources":{"hostingSite":"spotify-clone-fc5d9"},"state":"ACTIVE","etag":"1_f822fcc9-e3c7-44d0-8823-d75eb7c2da21"}
+[info] 
+[info] === Serving from 'C:\Users\singh\Desktop\spotify-clone'...
+[info] 
+[debug] [2022-11-12T14:43:30.845Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/spotify-clone-fc5d9/sites 
+[debug] [2022-11-12T14:43:32.223Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/spotify-clone-fc5d9/sites 200
+[debug] [2022-11-12T14:43:32.223Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/spotify-clone-fc5d9/sites {"sites":[{"name":"projects/spotify-clone-fc5d9/sites/spotify-clone-fc5d9","defaultUrl":"https://spotify-clone-fc5d9.web.app","appId":"1:600332448013:web:6e687f825d769da1120044","type":"DEFAULT_SITE"}]}
+[debug] [2022-11-12T14:43:32.225Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/spotify-clone-fc5d9/webApps/1:600332448013:web:6e687f825d769da1120044/config [none]
+[debug] [2022-11-12T14:43:34.092Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/spotify-clone-fc5d9/webApps/1:600332448013:web:6e687f825d769da1120044/config 200
+[debug] [2022-11-12T14:43:34.092Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/spotify-clone-fc5d9/webApps/1:600332448013:web:6e687f825d769da1120044/config {"projectId":"spotify-clone-fc5d9","appId":"1:600332448013:web:6e687f825d769da1120044","storageBucket":"spotify-clone-fc5d9.appspot.com","apiKey":"AIzaSyCPVEFby41iiPwcLc5DRKlOSrFoRPfPiE8","authDomain":"spotify-clone-fc5d9.firebaseapp.com","messagingSenderId":"600332448013"}
+[debug] [2022-11-12T14:43:34.169Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/spotify-clone-fc5d9 [none]
+[debug] [2022-11-12T14:43:35.113Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/spotify-clone-fc5d9 200
+[debug] [2022-11-12T14:43:35.114Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/spotify-clone-fc5d9 {"projectId":"spotify-clone-fc5d9","projectNumber":"600332448013","displayName":"spotify-clone","name":"projects/spotify-clone-fc5d9","resources":{"hostingSite":"spotify-clone-fc5d9"},"state":"ACTIVE","etag":"1_f822fcc9-e3c7-44d0-8823-d75eb7c2da21"}
+[info] i  hosting[spotify-clone-fc5d9]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[spotify-clone-fc5d9]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
